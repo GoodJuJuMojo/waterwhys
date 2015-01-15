@@ -1,0 +1,154 @@
+/*
+ * Author: YOUR NAME
+ * Assignment: Minor Project – PROJECT NAME
+ * Student ID:
+ * Date : YYYY/MM/DD
+ * Ref: website link to code referenced or the book, authors name and page number 
+ */
+
+
+/* Water Whys stylesheet 2015 Good Juju */
+/* General Styles */
+/* Media Queries*/
+
+/* Stack pills for mobile */
+@media (max-width: 767px) {
+  .nav-pills>li {
+    float: none;
+  }
+}
+
+/* Fonts*/
+
+@font-face {
+  font-family: '616';
+  src: url('../fonts/616.eot');
+  src: local('616'), 
+        url('../fonts/616.woff') format('woff'), 
+        url('../fonts/616.ttf') format('truetype');
+}
+/* class to attach font e.g. <p class="ww-fonts">Text with this font applied</p> */
+.ww-fonts {
+  font-family: '616' !important;
+}
+
+/**/
+/*body {
+  padding-top: 70px;
+}*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: '616', Fallback, sans-serif;
+  color: #33b6b8;
+}
+
+/*.navbar-default {
+  background-color: #fff;
+}*/
+/*Menu covering content fix*/
+.anchor:before {
+  display: block;
+  content: " ";
+  margin-top: -60px;
+  height: 60px;
+  visibility: hidden;
+}
+
+
+/* 'Calculator' specific styles */
+#ww-calculator .row , .wc-row{
+  background-color: #8ec6c5;
+  font-family: '616', Fallback, sans-serif;
+  color: white;
+
+}
+
+#ww-calculator div.wc-header {
+  background-color: #33b6b8;
+  text-align: center;
+}
+
+#ww-calculator h1, h2 {
+  color: white;
+}
+
+#ww-calculator div.row {
+  border: white solid 1px;
+}
+
+#ww-calculator div.wc-stepper {
+  text-align: right;
+}
+
+#ww-calculator .wc-val {
+  padding-right: 5px;
+  text-align: right;
+  display: inline-block;
+  width: 45px;
+  color: #4ea5a5;
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+#ww-calculator span {
+  vertical-align: middle;
+}
+
+#ww-calculator .glyphicon {
+/*color: green;*/
+width:  30px
+/*padding: 0;
+text-align: center;*/
+ 
+}
+
+#ww-calculator div.wc-footer {
+  background-color: #33b6b8;
+  text-align: center;
+}
+
+#ww-calculator div.wc-footer {  
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#ww-calculator div.wc-footer h1 {
+  color: #1a8080;
+}
+
+#wc-result-val {
+  color: #dd0020;
+}
+
+
+/* 'Conservation Tips' specific styles*/
+/* 'Resources' specific styles*/
+/* 'Kids' specific styles*/
+/* 'About' specific styles*/
+/* general styles */
+
+/*html, body {
+  height: 100%;
+  width: 100%;
+}*/
+
+
+/*html { 
+  background: url(assets/imgs/water1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+/* padded section */
+/*.ww-section {
+  padding: 50px 0;
+}*/
+/*.ww-section img {
+  width: 80%;
+}*/
+
+ /* Colours */
+ 
