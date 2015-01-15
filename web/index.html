@@ -29,6 +29,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
   <body>
 
     <!-- ============================================================================= -->
@@ -53,37 +54,12 @@
             <li><a href="#ww-resources">Resources</a></li>
             <li><a href="#ww-kids">Kids</a></li>
             <li><a href="#ww-about">About</a></li>
-
-
-        </div><!-- /.navbar-collapse -->
-      </div><!-- nav container -->
-    </nav><!-- Navigation -->
-        <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container wn-container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ww-menu">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-            <img src="assets/imgs/WaterWhysIcon.png" alt="Logo"> 
-          </a>
-        </div><!-- /.nav header -->
-        <div class="collapse navbar-collapse" id="ww-menu">
-          <ul class="nav nav-pills">
-            <li ><a href="#ww-calculator">Calculator</a></li>
-            <li><a href="#ww-tips">Conservation Tips</a></li>
-            <li><a href="#ww-resources">Resources</a></li>
-            <li><a href="#ww-kids">Kids</a></li>
-            <li><a href="#ww-about">About</a></li>
-
+          </ul>
 
         </div><!-- /.navbar-collapse -->
       </div><!-- nav container -->
     </nav><!-- Navigation -->
+
 
     <h1>WaterWhys</h1>
     <!-- WaterWhys -->
@@ -205,34 +181,57 @@
     <!-- Tips Section -->
     <section id="ww-tips" class="anchor">
       <div class="container">
-        <div id="carousel-top-tips" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div id="carousel-top-tips" class="carousel slide" data-ride="carousel" data-interval="8000">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#carousel-top-tips" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-top-tips" data-slide-to="1"></li>
             <li data-target="#carousel-top-tips" data-slide-to="2"></li>
+            <li data-target="#carousel-top-tips" data-slide-to="3"></li>
+            <li data-target="#carousel-top-tips" data-slide-to="3"></li>
+            <li data-target="#carousel-top-tips" data-slide-to="5"></li>
+            <li data-target="#carousel-top-tips" data-slide-to="6"></li>
           </ol>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <a href="#" data-toggle="modal" data-target="#wt-modal-1">
-                <img src="http://placehold.it/800x300/fff/e20613" alt="aaa...">
-              </a>
+              <img class="img-responsive center-block" src="http://placehold.it/800x300" alt="...">
               <div class="carousel-caption">
                 Top Tip 1
               </div>
             </div>
             <div class="item">
-              <a href="#" data-toggle="modal" data-target="#wt-modal-2">
-                <img src="http://placehold.it/1280x300" alt="...">
-              </a>
+              <img class="img-responsive center-block" src="http://placehold.it/800x300" alt="...">
               <div class="carousel-caption">
                 Top Tip 2
               </div>
             </div>
-            ...
-          </div>
+            <div class="item">
+              <img class="img-responsive center-block" src="http://placehold.it/800x300" alt="...">
+              <div class="carousel-caption">
+                Top Tip 3
+              </div>
+            </div>
+            <div class="item">
+              <img class="img-responsive center-block" src="http://placehold.it/800x300" alt="...">
+              <div class="carousel-caption">
+                Top Tip 4
+              </div>
+            </div>
+            <div class="item">
+              <img class="img-responsive center-block" src="http://placehold.it/800x300" alt="...">
+              <div class="carousel-caption">
+                Top Tip 5
+              </div>
+            </div>
+            <div class="item">
+              <img class="img-responsive center-block" src="http://placehold.it/800x300" alt="...">
+              <div class="carousel-caption">
+                Top Tip 6
+              </div>
+            </div> 
+          </div> <!-- /Wrapper for slides -->
 
           <!-- Controls -->
           <a class="left carousel-control" href="#carousel-top-tips" role="button" data-slide="prev">
@@ -244,17 +243,18 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
+      <!-- </div> -->
 
-        <!-- Top Tips Modals -->
-        <div class="modal fade" id="wt-modal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <!-- Modals -->
+        <div class="modal fade" id="wt-modal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-1" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Top Tip 1</h4>
+                <h4 class="modal-title" id="myModalLabel-1">Modal 1</h4>
               </div>
               <div class="modal-body">
-                Tip no. 1
+                Modal one
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -264,15 +264,15 @@
           </div>
         </div>
 
-        <div class="modal fade" id="wt-modal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade" id="wt-modal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Top Tip 2</h4>
+                <h4 class="modal-title" id="myModalLabel-2">Modal 2</h4>
               </div>
               <div class="modal-body">
-                Tip no. 2
+                Modal two
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -320,125 +320,125 @@
       <section id="ww-faqs">
 
         <div class="container">
-        <div class="row">
-          <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6">
 
-          <h1>Faq</h1>
+            <h1>Faq</h1>
 
-          
-          <div id="accordion" class="panel-group">
+            
+            <div id="accordion" class="panel-group">
 
-            <!-- accordion-1 -->
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">
-                    <span class="glyphicon glyphicon-plus-sign"></span> Lorem ipsum dolor sit amet, consectetur?
-                    </a>
-                </h4>
-              </div>
-              <div id="collapse-1" class="panel-collapse collapse">
-                <div class="panel-body">
-                  <p>Libris feugiat detraxit ne vis, eos aliquid verterem probatus cu, at nec epicuri platonem convenire. Vis corpora deleniti ut, et nec tamquam mentitum. Ea mei fabulas periculis, mei eu consulatu scribentur, utamur iuvaret mei an. Vim te aeterno blandit, facer volutpat nam ei. Mentitum posidonium vel eu, dictas incorrupte ut usu, ne partem appellantur nam. An eum choro quaerendum, in vel etiam omnium. Duo prima inermis urbanitas at.</p>
+              <!-- accordion-1 -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">
+                      <span class="glyphicon glyphicon-plus-sign"></span> Lorem ipsum dolor sit amet, consectetur?
+                      </a>
+                  </h4>
                 </div>
-              </div>
-            </div><!-- /accordion-1 -->
-
-          <!-- accordion-2 -->
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2">
-                    <span class="glyphicon glyphicon-plus-sign"></span> Donec porttitor risus suscipit dolor incidunt viverra?
-                    </a>
-                </h4>
-              </div>
-              <div id="collapse-2" class="panel-collapse collapse">
-                <div class="panel-body">
-                  <p>Sit ad dicunt eleifend, per ex eros iriure tractatos. Ex vim soleat sanctus oportere. Ex case partiendo sed, noster cetero omittam an ius. Eam unum cetero mnesarchum te. Est id movet iisque.</p>
+                <div id="collapse-1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Libris feugiat detraxit ne vis, eos aliquid verterem probatus cu, at nec epicuri platonem convenire. Vis corpora deleniti ut, et nec tamquam mentitum. Ea mei fabulas periculis, mei eu consulatu scribentur, utamur iuvaret mei an. Vim te aeterno blandit, facer volutpat nam ei. Mentitum posidonium vel eu, dictas incorrupte ut usu, ne partem appellantur nam. An eum choro quaerendum, in vel etiam omnium. Duo prima inermis urbanitas at.</p>
+                  </div>
                 </div>
-              </div>
-            </div><!-- /accordion-2 -->
+              </div><!-- /accordion-1 -->
 
-          <!-- accordion-3 -->
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-3">
-                    <span class="glyphicon glyphicon-plus-sign"></span> Mauris eu gravida lectus, ac tincidunt lorem. Quisque ex tellus, cursus at justo at?
-                    </a>
-                </h4>
-              </div>
-              <div id="collapse-3" class="panel-collapse collapse">
-                <div class="panel-body">
-                  <p>Ad mel nihil iudico aperiri, no etiam tamquam nonumes vix. Vim soleat iisque hendrerit ex, eum illum corrumpit honestatis ex. Ex vel mutat populo adolescens, duo eu placerat postulant consetetur, tritani repudiandae in sea. Veri abhorreant sadipscing quo te, quod graeco ad eum. Id cum patrioque definiebas percipitur, nam in quot tractatos.Vim tota.</p>
+            <!-- accordion-2 -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2">
+                      <span class="glyphicon glyphicon-plus-sign"></span> Donec porttitor risus suscipit dolor incidunt viverra?
+                      </a>
+                  </h4>
                 </div>
-              </div>
-            </div><!-- /accordion-3 -->
-
-          <!-- accordion-4 -->
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-4">
-                    <span class="glyphicon glyphicon-plus-sign"></span> Lorem ipsum dolor sit amet, consectetur ?
-                    </a>
-                </h4>
-              </div>
-              <div id="collapse-4" class="panel-collapse collapse">
-                <div class="panel-body">
-                  <p>Libris feugiat detraxit ne vis, eos aliquid verterem probatus cu, at nec epicuri platonem convenire. Vis corpora deleniti ut, et nec tamquam mentitum. Ea mei fabulas periculis, mei eu consulatu scribentur, utamur iuvaret mei an. Vim te aeterno blandit, facer volutpat nam ei. Mentitum posidonium vel eu, dictas incorrupte ut usu, ne partem appellantur nam. An eum choro quaerendum, in vel etiam omnium. Duo prima inermis urbanitas at.</p>
+                <div id="collapse-2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Sit ad dicunt eleifend, per ex eros iriure tractatos. Ex vim soleat sanctus oportere. Ex case partiendo sed, noster cetero omittam an ius. Eam unum cetero mnesarchum te. Est id movet iisque.</p>
+                  </div>
                 </div>
-              </div>
-            </div><!-- accordion-4 -->
+              </div><!-- /accordion-2 -->
 
-          <!-- accordion-5 -->
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-5">
-                    <span class="glyphicon glyphicon-plus-sign"></span> Vivamus at lacus vel sapien fermentum placerat sed id purus nunc?
-                    </a>
-                </h4>
-              </div>
-              <div id="collapse-5" class="panel-collapse collapse">
-                <div class="panel-body">
-                  <p>Sit ad dicunt eleifend, per ex eros iriure tractatos. Ex vim soleat sanctus oportere. Ex case partiendo sed, noster cetero omittam an ius. Eam unum cetero mnesarchum te. Est id movet iisque.</p>
+            <!-- accordion-3 -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-3">
+                      <span class="glyphicon glyphicon-plus-sign"></span> Mauris eu gravida lectus, ac tincidunt lorem. Quisque ex tellus, cursus at justo at?
+                      </a>
+                  </h4>
                 </div>
-              </div>
-            </div><!-- accordion-5 -->
-
-          <!-- accordion-6 -->
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-6">
-                    <span class="glyphicon glyphicon-plus-sign"></span> Sit ad dicunt eleifend, per ex eros iriure tractatos?
-                    </a>
-                </h4>
-              </div>
-              <div id="collapse-6" class="panel-collapse collapse">
-                <div class="panel-body">
-                  <p>Sea augue facilisis splendide cu, soleat fabellas tractatos ei has, per tation qualisque ad. Cu has doming nostrud vituperatoribus, an ornatus perfecto recteque eam. Ex eam assum nonumy accusam. Exerci animal his at, vero labores perfecto no vel, quo no dicant mucius. Nam dicat ullum ea.</p>
+                <div id="collapse-3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Ad mel nihil iudico aperiri, no etiam tamquam nonumes vix. Vim soleat iisque hendrerit ex, eum illum corrumpit honestatis ex. Ex vel mutat populo adolescens, duo eu placerat postulant consetetur, tritani repudiandae in sea. Veri abhorreant sadipscing quo te, quod graeco ad eum. Id cum patrioque definiebas percipitur, nam in quot tractatos.Vim tota.</p>
+                  </div>
                 </div>
-              </div>
-            </div><!-- accordion-6 -->
+              </div><!-- /accordion-3 -->
 
-          </div><!-- /FAQ accordion group -->
+            <!-- accordion-4 -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-4">
+                      <span class="glyphicon glyphicon-plus-sign"></span> Lorem ipsum dolor sit amet, consectetur ?
+                      </a>
+                  </h4>
+                </div>
+                <div id="collapse-4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Libris feugiat detraxit ne vis, eos aliquid verterem probatus cu, at nec epicuri platonem convenire. Vis corpora deleniti ut, et nec tamquam mentitum. Ea mei fabulas periculis, mei eu consulatu scribentur, utamur iuvaret mei an. Vim te aeterno blandit, facer volutpat nam ei. Mentitum posidonium vel eu, dictas incorrupte ut usu, ne partem appellantur nam. An eum choro quaerendum, in vel etiam omnium. Duo prima inermis urbanitas at.</p>
+                  </div>
+                </div>
+              </div><!-- accordion-4 -->
+
+            <!-- accordion-5 -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-5">
+                      <span class="glyphicon glyphicon-plus-sign"></span> Vivamus at lacus vel sapien fermentum placerat sed id purus nunc?
+                      </a>
+                  </h4>
+                </div>
+                <div id="collapse-5" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Sit ad dicunt eleifend, per ex eros iriure tractatos. Ex vim soleat sanctus oportere. Ex case partiendo sed, noster cetero omittam an ius. Eam unum cetero mnesarchum te. Est id movet iisque.</p>
+                  </div>
+                </div>
+              </div><!-- accordion-5 -->
+
+            <!-- accordion-6 -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-6">
+                      <span class="glyphicon glyphicon-plus-sign"></span> Sit ad dicunt eleifend, per ex eros iriure tractatos?
+                      </a>
+                  </h4>
+                </div>
+                <div id="collapse-6" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Sea augue facilisis splendide cu, soleat fabellas tractatos ei has, per tation qualisque ad. Cu has doming nostrud vituperatoribus, an ornatus perfecto recteque eam. Ex eam assum nonumy accusam. Exerci animal his at, vero labores perfecto no vel, quo no dicant mucius. Nam dicat ullum ea.</p>
+                  </div>
+                </div>
+              </div><!-- accordion-6 -->
+
+            </div><!-- /FAQ accordion group -->
           </div><!-- /FAQ accordion col -->
 
-          <div class="col-md-6 hidden-xs">
-          <H1>Helpful Links</H1>
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <ul class="list-group">
-                <li class="list-group-item">www.thisisalink.com</li>
-              </ul>
-          </div>
+            <div class="col-md-6 hidden-xs">
+              <H1>Helpful Links</H1>
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">www.thisisalink.com</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
 
-
-          </div>
-        </div><!-- FAQ row -->
+          </div><!-- FAQ row -->
         </div><!-- FAQ container -->
       </section><!-- /FAQs Section sub section of Resources Section -->
 
