@@ -1,0 +1,28 @@
+
+/* general styles */
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+	padding: 70px;
+}
+/*html { 
+  background: url(assets/imgs/water1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+/* padded section */
+.ww-section {
+  padding: 50px 0;
+}
+.ww-section img {
+  width: 80%;
+}
+
+ 
