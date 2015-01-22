@@ -202,6 +202,10 @@ div #wq-question {
   width: 30px;
 }
 
+#wq-prev:hover {
+  color: #004853;
+}
+
 #wq-next {
   text-align: right;
   padding-top: 50px;
@@ -210,6 +214,11 @@ div #wq-question {
   height: 100px;
   width: 30px;
 }
+
+#wq-next:hover {
+  color: #004853;
+}
+
 
 #wq-qanda {
   text-align: center;

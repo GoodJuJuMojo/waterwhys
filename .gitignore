@@ -1,3 +1,5 @@
+# Sublime Text .tmp
+*.tmp
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
