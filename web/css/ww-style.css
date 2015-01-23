@@ -71,6 +71,11 @@ border-radius: 0px;
 /*including here to override bootstrap styling*/
 }
 
+.nav>li>a:hover, .nav>li>a:focus {
+text-decoration: none;
+background-color: #ec6a19;
+}
+
 
 .navbar-default {
     background-image: url("../assets/imgs/wn-background.png");
@@ -119,8 +124,7 @@ border-radius: 0px;
   text-align: right;
   display: inline-block;
   width: 45px;
-  color: #4ea5a5;
-  background-color: #fff;
+  color: #004853;
   vertical-align: middle;
 }
 
