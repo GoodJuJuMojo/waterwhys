@@ -66,6 +66,11 @@ ul.nav.nav-pills li a {
   /*background-image: url("../assets/imgs/wn-background.svg");*/
 }
 
+.nav-pills>li>a {
+border-radius: 0px;
+/*including here to override bootstrap styling*/
+}
+
 
 .navbar-default {
     background-image: url("../assets/imgs/wn-background.png");
