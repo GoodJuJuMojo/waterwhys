@@ -33,7 +33,7 @@
   font-family: '616' !important;
 }
 
-/**/
+/* General Styles */
 .row-centered {
   text-align: center;
 }
@@ -49,6 +49,10 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: '616', Fallback, sans-serif;
   color: #33b6b8;
+}
+.panel-default>.panel-heading {
+
+  background-color: #8ec6c5;
 }
 
 /* 'Navigation' specific styles */
