@@ -226,12 +226,12 @@ var quizNumIdx = -1;
 // initialize on content load
 function init () {
 	// calculator init
-	var avgShower = 35;
+	var avgShower = 45;
 	var avgBath = 80;
 	var avgFlush = 9;
 	var avgClothes = 60;
 	var avgDish = 20;
-	var avgOther = 10;
+	var avgOther = 20;
 	document.getElementById("wc-shower-inc").addEventListener("click", function(){clickResponse(1, "wc-shower-val", avgShower)}, false);
 	document.getElementById("wc-shower-dec").addEventListener("click", function(){clickResponse(0, "wc-shower-val", avgShower)}, false);
 	document.getElementById("wc-bath-inc").addEventListener("click", function(){clickResponse(1, "wc-bath-val", avgBath)}, false);

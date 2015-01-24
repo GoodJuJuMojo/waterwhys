@@ -64,6 +64,14 @@ background-color: #fff;
 
 }
 
+.hrule {
+  padding-top: 150px;
+  color: #33b6b8;
+  border: none;
+  border-top: double;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: '616', Fallback, sans-serif;
   color: #33b6b8;
