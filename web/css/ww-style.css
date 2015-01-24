@@ -236,6 +236,8 @@ border-color: #ddd;
   visibility: hidden;
 }
 
+
+
 /*#wk-quiz #wq-outside {
   width: 100%;
   position: relative;
@@ -298,6 +300,26 @@ div #wq-question {
 #wq-bottom {
   text-align: center;
   margin-bottom: 20px;
+}
+
+ul#games {
+    padding: 0;
+}
+
+ul#games li {
+    display: inline;
+}
+
+ul#games li a {
+    background-color: #ec6a19;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 0px 0px 0 0;
+}
+
+ul#games li a:hover {
+    background-color: #19b3b8;
 }
 
 /* 'About' specific styles*/
