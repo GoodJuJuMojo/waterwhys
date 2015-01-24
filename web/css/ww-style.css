@@ -181,6 +181,16 @@ text-align: center;
 
 /* 'Resources' specific styles*/
 
+.list-group-item {
+position: relative;
+display: block;
+padding: 10px 15px;
+font-size: 21px;
+margin-bottom: -1px;
+background-color: #fff;
+border: 1px solid #ddd;
+}
+
 
 /* 'Kids' specific styles*/
 
