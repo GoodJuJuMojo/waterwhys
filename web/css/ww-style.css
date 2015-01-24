@@ -67,14 +67,16 @@ h1, h2, h3, h4, h5, h6 {
 ul.nav.nav-pills li a {
   color: #fff;
   font-size: 21px;
-  /*background-image: url("../assets/imgs/wn-background.svg");*/
-}
+ }
 
 .nav-pills>li>a {
 border-radius: 0;
 /*including here to override bootstrap styling*/
 }
 
+.nav-pills>li>a:hover {
+  background-color: #4ea5a5;
+}
 
 .navbar-default {
     background-image: url("../assets/imgs/wn-background.png");
@@ -154,6 +156,20 @@ text-align: center;
 
 #wc-result-val {
   color: #dd0020;
+
+}
+
+#wc-accordion {
+  text-align: center;
+}
+
+.wc-weekly {
+  vertical-align: top!important;
+  color: #dd0020;
+/*  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;*/
+
 }
 
 
