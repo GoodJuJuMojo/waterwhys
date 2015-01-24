@@ -71,7 +71,7 @@ ul.nav.nav-pills li a {
 }
 
 .nav-pills>li>a {
-border-radius: 0px;
+border-radius: 0;
 /*including here to override bootstrap styling*/
 }
 

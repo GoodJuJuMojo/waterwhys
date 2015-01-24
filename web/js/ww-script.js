@@ -15,8 +15,8 @@ $(document).on('click.nav','.navbar-collapse.in',function(e) {
 // Calculator
 function clickResponse(step, item, litres) {
 	
-	var val = parseInt(document.getElementById(item).innerHTML);
-	var res = parseInt(document.getElementById('wc-result-val').innerHTML);
+	var val = parseInt(document.getElementById(item).innerHTML, 10);
+	var res = parseInt(document.getElementById('wc-result-val').innerHTML, 10);
 	if (step) {
 		val += 1;
 		res += litres;
@@ -61,14 +61,14 @@ function renderQuiz(qNum) {
 
 // Rended previous question
 function getPrev(e) {
-	if (quizFlag == 0) {return;}
+	if (quizFlag === 0) {return;}
 	quizNumIdx--;
 	renderQuiz(quizNumArray[quizNumIdx]);
 }
 
 // Render next question
 function getNext(e) {
-	if (quizFlag == 0) {quizFlag = 1;}
+	if (quizFlag === 0) {quizFlag = 1;}
 	quizNumIdx++;
 	renderQuiz(quizNumArray[quizNumIdx]);
 }
