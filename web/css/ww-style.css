@@ -63,6 +63,10 @@ h1, h2, h3, h4, h5, h6 {
   /*background-image: url("../assets/imgs/wn-background.svg");*/
 }
 
+#ww-logo {
+  height: 80px;
+  margin-top: -20px;
+}
 
 ul.nav.nav-pills li a {
   color: #fff;
