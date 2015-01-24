@@ -197,6 +197,10 @@ text-align: center;
 
 /* 'Conservation Tips' specific styles*/
 
+#ww-tips h3 {
+  color: #ec6a19;
+}
+
 /* 'Resources' specific styles*/
 
 .list-group-item {
