@@ -1,4 +1,3 @@
-
 // * Author: YOUR NAME
 // * Assignment: Minor Project – PROJECT NAME
 // * Student ID:
@@ -12,6 +11,7 @@ $(document).on('click.nav','.navbar-collapse.in',function(e) {
     $(this).collapse('hide');
   }
 });
+
 // Calculator
 function clickResponse(step, item, litres) {
 	
@@ -31,22 +31,24 @@ function clickResponse(step, item, litres) {
 }
 
 
-//quiz
+// Quiz
 
 
 // render quiz question and answer options
 function renderQuiz(qNum) {
+	// Hide 'prev' option on first question
 	if (quizNumIdx < 1) {
 		quizPrev.style.visibility = "hidden";
 	} else {
 		quizPrev.style.visibility = "visible";
 	}
+	// Hide 'next' option on last question
 	if (quizNumIdx == (quizSize - 1)) {
 		quizNext.style.visibility = "hidden";
 	} else {
 		quizNext.style.visibility = "visible";
 	}
-
+	// Hide result
 	quizResult.style.visibility = "hidden";
 
 	document.getElementById('wq-question').innerHTML = quiz[qNum][0];
@@ -54,6 +56,7 @@ function renderQuiz(qNum) {
 	document.getElementById('wq-ans-2').innerHTML = quiz[qNum][2];
 	document.getElementById('wq-ans-3').innerHTML = quiz[qNum][3];
 	document.getElementById('wq-ans-4').innerHTML = quiz[qNum][4];
+	// Select appropriate background for each question
 	var qImgBck = "url('assets/imgs/q-" + (qNum) + "-bg.svg')";
 	quizForm.style.backgroundSize = "cover";
 	quizForm.style.backgroundImage = qImgBck;
@@ -216,11 +219,9 @@ var quiz = [
 
 var quizFlag = 0;
 var quizSize = (quiz.length - 1);
-console.log("quizSize:" + quizSize);
 var quizForm;
 var quizResult;
 var quizNumArray = numArray(quizSize);
-console.log(quizNumArray);
 var quizNumIdx = -1;
 
 // initialize on content load
