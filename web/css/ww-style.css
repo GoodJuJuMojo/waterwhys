@@ -1,4 +1,3 @@
-
 /*
  * Author: YOUR NAME
  * Assignment: Minor Project – PROJECT NAME
@@ -7,9 +6,10 @@
  * Ref: website link to code referenced or the book, authors name and page number 
  */
 
-
 /* Water Whys stylesheet 2015 Good Juju */
+
 /* General Styles */
+
 /* Media Queries */
 
 /* Stack pills for mobile */
@@ -45,11 +45,11 @@
 /* General Styles */
 
 body {
-font-family: "Open Sans",Helvetica,Arial,sans-serif;
-font-size: 16px;
-line-height: 1.42857143;
-color: #333;
-background-color: #fff;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
 }
 
 .row-centered {
@@ -61,7 +61,6 @@ background-color: #fff;
   float: none;
   text-align: left;
   margin-right: -4px; 
-
 }
 
 .hrule {
@@ -82,12 +81,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* 'Navigation' specific styles */
-
-
-.wn-container {
-  /*background-color: #004853;*/
-  /*background-image: url("../assets/imgs/wn-background.svg");*/
-}
 
 #ww-logo {
   height:90px;
@@ -113,10 +106,6 @@ background-color: #ec6a19;
     background-image: url("../assets/imgs/wn-background.png");
     border-style: none;
 }
-.navbar-default .navbar-nav > li > a {
-
-}
-
 
 /*Menu covering content fix*/
 .anchor:before {
@@ -132,7 +121,6 @@ background-color: #ec6a19;
   background-color: #8ec6c5;
   font-family: '616', Fallback, sans-serif;
   color: white;
-
 }
 
 #ww-calculator div.wc-header {
@@ -168,7 +156,6 @@ background-color: #ec6a19;
 #ww-calculator .glyphicon {
 padding: 0;
 text-align: center;
- 
 }
 
 #ww-calculator div.wc-footer {
@@ -187,7 +174,6 @@ text-align: center;
 
 #wc-result-val {
   color: #dd0020;
-
 }
 
 #wc-accordion {
@@ -197,10 +183,6 @@ text-align: center;
 .wc-weekly {
   vertical-align: top!important;
   color: #dd0020;
-/*  font-size: 18px;
-  margin-top: 10px;
-  margin-bottom: 10px;*/
-
 }
 
 
@@ -233,8 +215,8 @@ border-color: #ddd;
   font-family: '616', Fallback, sans-serif;
   color: white;
   font-size: 100%;
-
 }
+
 #wk-quiz {
   background-image: url("../assets/imgs/q-1-bg.svg");
   width: 100%;
@@ -244,22 +226,6 @@ border-color: #ddd;
 .q-result {
   visibility: hidden;
 }
-
-
-
-/*#wk-quiz #wq-outside {
-  width: 100%;
-  position: relative;
-}
-
-#wk-quiz #wq-outside #wq-inside {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}*/
-
 
 div #wq-question {
   color: #004853;
@@ -311,10 +277,6 @@ div #wq-question {
   margin-bottom: 20px;
 }
 
-ul#games {
-
-
-}
 
 ul#games li {
   display: inline;
