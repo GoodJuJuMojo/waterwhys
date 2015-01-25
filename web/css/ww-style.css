@@ -80,6 +80,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #8ec6c5;
 }
 
+footer {
+  background-image: url("../assets/imgs/wn-background.png");
+  border-style: none;
+  padding-top: 150px;
+}
 /* 'Navigation' specific styles */
 
 #ww-logo {
