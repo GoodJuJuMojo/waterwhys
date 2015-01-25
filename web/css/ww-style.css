@@ -10,7 +10,7 @@
 
 /* Water Whys stylesheet 2015 Good Juju */
 /* General Styles */
-/* Media Queries*/
+/* Media Queries */
 
 /* Stack pills for mobile */
 @media (max-width: 767px) {
@@ -111,6 +111,7 @@ background-color: #ec6a19;
 
 .navbar-default {
     background-image: url("../assets/imgs/wn-background.png");
+    border-style: none;
 }
 .navbar-default .navbar-nav > li > a {
 
